@@ -1,0 +1,14 @@
+{#if todo && todo.list}
+  {#list todo.list as item}
+  <div>
+    <button on-click="{this.handleDel(item_index)}">DEL</button>
+    {#if item.isEdit === false}
+    <button on-click="{this.handleChange(item_index)}">EDIT</button>
+    <span>{item.val}</span>
+    {#else}
+    <button on-click="{this.handleEdit($event,item_index)}">SUBMIT</button>
+    <input type="text" value="{item.val}"/>
+    {/if}
+  </div>
+  {/list}
+{/if}

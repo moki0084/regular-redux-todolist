@@ -1,0 +1,27 @@
+{
+  "name": "regular-redux-todolist",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel src/html/index.html",
+    "build": "parcel build src/html/index.html"
+  },
+  "author": "moki0084",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "redux": "3.7.2",
+    "redux-devtools-extension": "^2.13.8",
+    "regular-mixin-redux": "^1.0.0",
+    "regularjs": "0.5.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moki0084/regular-redux-todolist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moki0084/regular-redux-todolist/issues"
+  },
+  "homepage": "https://github.com/moki0084/regular-redux-todolist#readme",
+  "description": ""
+}
